@@ -135,9 +135,6 @@
             document.getElementById("addressTableBody").innerHTML = addressTableHtml;
         }
 
-        // 1. Roep een url aan
-        // 2. Zet antwoord om naar json object
-        // 3. Vul tabel
 
         fetch("http://localhost:8080/personen")     //  1
             .then(response => {
